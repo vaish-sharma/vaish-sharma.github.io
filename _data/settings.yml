@@ -125,7 +125,7 @@ achievements:
 - {name: '1st place in nVision Inter-College Hackathon in the category of AR/VR', date: '2016', organization: 'Indian Institute of Information Technology, Hyderabad (IITH)'}
 - {name: 'A special mention in intra-college hackathon themed on ‘Games for Teaching Computing’', date: '2016', organization: 'ACM'}
 - {name: 'Teaching Assistant for Computer Programming, Data Structures and Algorithms.', date: '2015-2019', organization: 'Indian Institute of Information Technology, Sri City, Chittoor'}
-- {name: 'Developed an archery-based game, The-Ultimate-Archer', url: https://github.com/vaish-sharma/The-Ultimate-Archer, date: '2017', organization: ''}
+- {name: 'Developed an archery-based game, The-Ultimate-Archer', url: 'https://github.com/vaish-sharma/The-Ultimate-Archer', date: '2017', organization: ''}
 - {name: 'Led a dance team for 3 years', date: '2015-2018', organization: 'Indian Institute of Information Technology, Sri City, Chittoor'}
 
 
