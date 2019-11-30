@@ -1,0 +1,307 @@
+#-------------------------------
+# General Site Settings
+
+title: Vaishali Sharma
+logo: logo.png
+email: vaishali0001sharma@gmail.com
+phone: +91 9113367342
+address: O-48, Jaypee Greens, Noida, India
+
+menu:
+- {name: Projects, link: '/portfolio/'}
+- {name: Achievements, link: '/achievements/'}
+
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Comment Section (Disqus)
+
+disqus-identifier: vaishsharma # Add your shortname for Disqus Comment. For example mr-brown
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Hi! I’m <br> Vaishali Sharma
+
+social:
+- {icon: "ti-github", link: "http://github.com/vaish-sharma"}
+- {icon: "ti-instagram", link: "#"}
+- {icon: "ti-facebook", link: "#"}
+- {icon: "ti-twitter", link: "#"}
+
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: 'I consider myself a person full of insatiable curiosity for knowledge and exploration beyond academics. It is due to this curiosity that I indulge in reading about different physical and metaphysical phenomena, their interpretations, causes and effects. 
+Currently, I am working at Adobe Systems on Adobe Creative Cloud and Adobe Application Manager. I have completed my bachelor’s degree in Computer Science and Engineering from Indian Institute of Information Technology.
+I enjoy reading books, watching documentaries and dancing. Of lately, I have started learning ukulele.'
+
+
+#blurb-btn-link: '/about'
+#blurb-btn-name: know more
+
+
+# About Page
+
+# Work Process Section
+work-process:
+  - title : "Research and Plan"
+    icon : "assets/images/icons/plan.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Design and Develop"
+    icon : "assets/images/icons/design.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    
+  - title : "Deliver"
+    icon : "assets/images/icons/print.png"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+# My Team Section
+team:
+  - title : "Jack Schenziwe"
+    image : "assets/images/team/member-1.png"
+    designation : "Project Manager"
+    
+  - title : "Julias Carlie"
+    image : "assets/images/team/member-2.png"
+    designation : "Web Developer"
+    
+  - title : "John Doe"
+    image : "assets/images/team/member-3.png"
+    designation : "Designer"
+
+
+#-------------------------------
+# Skills Section
+
+skills-title: Skills
+skills:
+- {name: Web Design, color: '#fdb157', value: '90%'}
+- {name: Logo Design, color: '#9473e6', value: '60%'}
+- {name: After Effects, color: '#bdecf6', value: '80%'}
+- {name: Web App, color: '#ffbcaa', value: '70%'}
+
+
+#-------------------------------
+# Exprerience Section
+
+experience-title: Work Experience
+experience:
+- {name: Software Development Engineer, icon: 'icon-1.png', date: 'July 2019 - Present', organization: 'Adobe'}
+- {name: VR Game Developer Intern, icon: 'icon-2.png', date: 'May 2017 - July 2017', organization: 'Kaleidozone'}
+- {name: Intern, icon: 'icon-3.png', date: 'Dec 2016', organization: 'Software Engineering Research Center, IIIT-H'}
+
+
+#-------------------------------
+# Education Section
+
+education-title: Education
+education:
+- {name: Bachelor of Technology, Computer Science and Engineering, date: '2019', organization: 'Indian Institute of Information Technology'}
+
+#-------------------------------
+# Achievements Page
+
+achievements-title: Achievements
+achievements:
+- {name: 'MUSE: A Musically Inspired Game to Teach Arrays and Linked Lists' , date: '2017', organization: 'Published at International Conference for Computers in Education (ICCE) 2017 at Christchurch, New Zealand'}
+- {name: 'Recipient of the APSCE Merit Scholarship', date: '2017', organization: 'International Conference for Computers in Education (ICCE) 2017 at Christchurch, New Zealand'}
+- {name: '1st place in nVision Inter-College Hackathon in the category of AR/VR', date: '2016', organization: 'Indian Institute of Information Technology, Hyderabad (IITH)'}
+- {name: 'A special mention in intra-college hackathon themed on ‘Games for Teaching Computing’', date: '2016', organization: 'ACM'}
+- {name: 'Teaching Assistant for Computer Programming, Data Structures and Algorithms.', date: '2015-2019', organization: 'Indian Institute of Information Technology, Sri City, Chittoor'}
+- {name: 'Developed an archery-based game, The-Ultimate-Archer', url: https://github.com/vaish-sharma/The-Ultimate-Archer, date: '2017', organization: ''}
+- {name: 'Led a dance team for 3 years', date: '2015-2018', organization: 'Indian Institute of Information Technology, Sri City, Chittoor'}
+
+
+#-------------------------------
+# Services Section
+
+services-title: Services
+services:
+- {
+    name: UI Design,
+    icon: ti-palette,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+- {
+    name: UX Design,
+    icon: ti-vector,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: true # Add true to select section
+  }
+- {
+    name: Interaction Design,
+    icon: ti-panel,
+    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    active: # Add true to select section
+  }
+
+
+
+#-------------------------------
+# Portfolio (Section and Page)
+
+# Portfolio Home Section
+portfolio-home-items:
+  - image : "assets/images/portfolio/item-1.png"
+    content: "Augmented Social Space is an application which assists the user in knowing the people identified around him/her and displays information about personality and friends in the augmented space. The interface   component of the system used Unity Game Engine, Firebase Database. The person-identification component was developed using OpenCV library. The personality of the users was learnt using models trained over dataset subjected to extract features like the ones based on psycholinguistic lexicon like LIWC, MRC;  non-linguistic features like network size among others."
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-2.png"
+    content: "SAMS is a system with a mobile app and a website that primarily eases the process of taking attendance in a class by having students mark themselves present in a session initiated by the teacher. Besides this, the application manages assignment submissions, grades as well as other statistics of a student in a course. I developed a module of the system, which provided a class-reminder service to the faculty before their classes. The technologies used for this component were Django Web Framework, Redis message queues, Celery."
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-3.png"
+    content: "A simple search engine was developed on 15000 news articles. The ranking of the retrieved articles was done according to cosine similarity, TF-IDF and positional indexes. Recall and precision were the performance metrics used."
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-4.png"
+    content: "This project includes a series of games to teach players how to write code. The player needs to write code to complete tasks of the game. The technologies used were Web2py Web Framework, Phaser Game Development library."
+    url: "#"
+    
+  - image : "assets/images/portfolio/item-5.png"
+    content: "This project was made as a done as a part of the Operating Systems Course. The technology used was Java IDE Netbeans. The features included were a text editor, file manager with the functionality of save, copy, move, rename functions, recycle bin, a tic-tac-toe game. "
+    url: "#"
+
+  - image : "assets/images/portfolio/item-5.png"
+    content: "This project is a system for users to monitor power consumption in real time. The system also calculated a few statistical data about the consumption for the users. The technologies used were Web2py Web Framework, Arduino microcontroller, ESP8266 module, ACS712 module."
+    url: "#"
+
+
+# Portfolio Page
+portfolio-label:
+- {
+    title : "UI/UX Design",
+    type : "design"
+  }
+- {
+    title : "BRANDING",
+    type : "branding"
+  }
+- {
+    title : "ILLUSTRATION",
+    type : "illustration"
+  }
+
+portfolio-items:
+  - image : "assets/images/portfolio/item-1.png"
+    url: "#"
+    name: "Augmented Social Space"
+    content: "Augmented Social Space is an application which assists the user in knowing the people identified around him/her and displays information about personality and friends in the augmented space. The interface   component of the system used Unity Game Engine, Firebase Database. The person-identification component was developed using OpenCV library. The personality of the users was learnt using models trained over dataset subjected to extract features like the ones based on psycholinguistic lexicon like LIWC, MRC;  non-linguistic features like network size among others."
+    portfolio-type:
+     - type: "design"
+     - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-2.png"
+    url: "#"
+    name: "Smart Attendance Management System (SAMS)"
+    content: "SAMS is a system with a mobile app and a website that primarily eases the process of taking attendance in a class by having students mark themselves present in a session initiated by the teacher. Besides this, the application manages assignment submissions, grades as well as other statistics of a student in a course. I developed a module of the system, which provided a class-reminder service to the faculty before their classes. The technologies used for this component were Django Web Framework, Redis message queues, Celery."
+    portfolio-type:
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-3.png"
+    url: "#"
+    name: "Search Engine on News Articles"
+    content: "A simple search engine was developed on 15000 news articles. The ranking of the retrieved articles was done according to cosine similarity, TF-IDF and positional indexes. Recall and precision were the performance metrics used."
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-6.png"
+    url: "#"
+    name: "Codebolt"
+    content: "This project includes a series of games to teach players how to write code. The player needs to write code to complete tasks of the game. The technologies used were Web2py Web Framework, Phaser Game Development library."
+    portfolio-type:
+      - type: "design"
+      - type: "branding"
+      
+  - image : "assets/images/portfolio/item-8.png"
+    url: "#"
+    name: "MiniOS"
+    content: "This project involved the development of a miniOS emulator. The technology used was Java IDE Netbeans. The features included were a text editor, file manager with the functionality of save, copy, move, rename functions, recycle bin, a tic-tac-toe game. "
+    portfolio-type:
+      - type: "illustration"
+      
+  - image : "assets/images/portfolio/item-5.png"
+    url: "#"
+    name: "Energy Mangement System"
+    content: "This project is a system for users to monitor power consumption in real time. The system also calculated a few statistical data about the consumption for the users. The technologies used were Web2py Web Framework, Arduino microcontroller, ESP8266 module, ACS712 module."
+    portfolio-type:
+      - type: "design"
+      
+
+#-------------------------------
+# Testimonials Section
+
+testimonial-items:
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation : "CEO, Funder"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    
+  - name: "Jesica Gomez"
+    image: "assets/images/testimonial/client-1.png"
+    designation: "CEO, Funder"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+
+
+#-------------------------------
+# Client Slider Section
+
+client-slider-items:
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-1.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-2.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-3.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-4.png"
+    url: "#"
+    
+  - logo: "assets/images/clients-logo/client-logo-5.png"
+    url: "#"
+
+#-------------------------------
+# Contact Section
+
+contact-title: Contact Info
+contact-email: steve.fruits@email.com

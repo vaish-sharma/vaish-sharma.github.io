@@ -1,0 +1,30 @@
+---
+layout: page
+title: Experiences
+---
+
+{% if site.data.settings.portfolio-items %}
+<!-- portfolio-items -->
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <!--  <div class="col-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.services-title }}</h2>
+      </div> -->
+            {% for portfolio in site.data.settings.portfolio-items %}
+            <div class="col-lg-12 col-md-12 mb-80">
+                <div class="d-flex">
+                    <div class="card hover-shadow shadow">
+                        <div class="card-body">
+                                <h4>{{ portfolio.name }}</h4>
+                                <p class=" text-dark mb-1">{{ portfolio.content }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- portfolio-items -->
+{% endif %}
