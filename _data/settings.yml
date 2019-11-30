@@ -8,8 +8,8 @@ phone: +91 9113367342
 address: O-48, Jaypee Greens, Noida, India
 
 menu:
-- {name: Projects, link: '/portfolio/'}
-- {name: Achievements, link: '/achievements/'}
+- {name: Projects, link: '/portfolio'}
+- {name: Achievements, link: '/achievements'}
 
 
 #-------------------------------
